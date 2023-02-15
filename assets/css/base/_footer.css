@@ -1,0 +1,34 @@
+.page-footer {
+    background: #fcfdff;
+}
+
+.page-footer .row {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.page-footer p {
+    margin-bottom: 0;
+}
+
+.page-footer .socials {
+    max-width: 210px;
+    margin-left: auto;
+}
+
+.page-footer .socials .social-item {
+    margin-left: auto;
+}
+
+@media (max-width: 767.98px) {
+    .page-footer {
+        padding: 20px 0;
+    }
+    .page-footer .row {
+        text-align: center;
+    }
+    .page-footer .row .socials {
+        margin: auto;
+    }
+}

@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+*,
+*:focus {
+    outline: none !important;
+}
+
+a,
+button {
+    cursor: revert;
+}
+ol,
+ul,
+menu {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+table {
+    border-collapse: collapse;
+}
+textarea {
+    white-space: revert;
+}
+meter {
+    -webkit-appearance: revert;
+    appearance: revert;
+}
+::placeholder {
+    all: unset;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+    display: block;
+}
+
+body,
+html {
+    font-family: "Montserrat", sans-serif;
+}
+
+main {
+    overflow-x: hidden;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+a {
+    color: var(--primary);
+}

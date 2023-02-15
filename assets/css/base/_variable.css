@@ -1,0 +1,13 @@
+:root {
+    --primary: #8257e5;
+    --color-black: #000;
+    --color-blue-dark: #003648;
+    --color-white: #fff;
+    --color-orange: #ff7a57;
+    --color-red: #f85c70;
+
+    --bg-gray: #f7f7f7;
+    --overlay: #8257e578;
+
+    --shadow: 0 0 8px #ccc;
+}

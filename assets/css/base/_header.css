@@ -1,0 +1,111 @@
+.header {
+    background: url(../../imgs/dev.gif) no-repeat right;
+    background-size: contain;
+    height: 500px;
+    margin-top: 20px;
+}
+
+@media (max-width: 490px) {
+    .header {
+        background-position: center top;
+        margin-top: 10px;
+        padding-top: 220px;
+    }
+}
+
+.header .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header .container .infos {
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+
+.header .container .infos .subtitle {
+    margin-bottom: 0;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.header .container .infos .title {
+    margin-bottom: 0px;
+    font-size: 74px;
+    font-weight: 900;
+    line-height: 1;
+    padding: 10px 0;
+}
+
+.header .container .infos p {
+    margin-top: -5px;
+    font-size: 22px;
+}
+
+.header .container {
+    height: 100%;
+    align-self: flex-end;
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 0px;
+}
+
+@media (max-width: 991.98px) {
+    .header .container {
+        justify-content: center;
+    }
+    .header .container .infos {
+        margin-top: 30px;
+    }
+}
+
+.header .widget {
+    position: relative;
+    max-width: 650px;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 50px;
+    display: flex;
+    border: 1px solid #dee2e6;
+    padding: 20px 0;
+    margin-top: -50px;
+    z-index: 999;
+    background: #fff;
+    box-shadow: 0 0 30px rgba(173, 181, 189, 0.4);
+}
+
+.header .widget .widget-item {
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: center;
+    border-right: 1px solid #dee2e6;
+}
+
+.header .widget .widget-item:last-child {
+    border-right: 0;
+}
+
+.header .widget .widget-item h2,
+.header .widget .widget-item p {
+    margin: 0;
+}
+
+.header .widget .widget-item p {
+    opacity: 0.7;
+    font-size: 14px;
+}
+
+@media (max-width: 767.98px) {
+    .header .widget {
+        padding: 10px;
+        margin-top: 80px;
+    }
+    .header .widget .widget-item h2 {
+        font-size: 20px;
+    }
+    .header .widget .widget-item p {
+        font-size: 13px;
+    }
+}
